@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sedan:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 400px;
+  height: 200px;
+  background-color: rgb(11, 85, 36);
+  margin-top: 30vh;
+  text-align: center;
+  color: white;
+  border: 2px solid rgb(109, 185, 169);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+.counter {
+  margin: 10px 20px;
+}
+
+.counter > * {
+  margin-top: 15px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+
+.btn-test {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(10, 240, 152);
+  transition: all 0.7s;
+}
+
+.btn-test:hover {
+  cursor: pointer;
+  /* color: rgb(124, 57, 2); */
+  background-color: rgb(188, 233, 117);
+}
+
+.modal{
+  position: fixed;
+}
+
+.modal-box {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(209, 245, 233);
+    
+    width:400px;
+    height: 300px;
+    margin: 12% auto;
+    animation: slide ease .8s;
+}
+
+.btn-close {
+    font-size: 30px;
+}
+
+/* .modal-box {
+    padding: 8px 8px;
+
+} */
+
+.modal-text {
+    font-size: 14px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-30rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
+}

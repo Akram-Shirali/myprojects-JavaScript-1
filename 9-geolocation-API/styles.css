@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    margin: 10px 20px;
+    min-width: 400px;
+    height: 230px;
+    margin-top: 30vh;
+    text-align: center;
+    color: rgb(31, 29, 29);
+    border: none;
+    border-radius: 10px;
+    max-width: 600px;
+    border: 2px solid rgb(238, 56, 183);
+    background-color: rgb(243, 184, 216);
+  }
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.locat {
+    margin-top: 1rem;
+    font-size: 20px;
+}
