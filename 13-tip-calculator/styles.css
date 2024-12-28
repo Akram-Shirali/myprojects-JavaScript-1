@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: rgb(202, 182, 182);
+    border-radius: 8px;
+}
+
+.box {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.button {
+    background-color: rgb(221, 193, 156);
+    padding: 10px 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+.button:hover {
+    border: 1px solid gray;
+}
+
+.error {
+    color: brown;
+    font-size: 20px;
+}
+
+.tip .total {
+    border: 1px solid black;
+    padding: 15px 20px;
+    background-color: white;
+}
