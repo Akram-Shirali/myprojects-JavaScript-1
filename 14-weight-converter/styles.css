@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(241, 227, 209);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background: linear-gradient(0.55turn, #5b91a8, #ebf8e1, #f0d0ae);
+    align-items: center;
+    width: 350px;
+    height: 450px;
+}
+
+.title {
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text {
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.pounds-con ,.kilograms-con ,.grams-con ,.ounces-con {
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.title-con {
+    font-size: 17px;
+}
+
+input {
+    width: 250px;
+    padding: 10px 5px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
