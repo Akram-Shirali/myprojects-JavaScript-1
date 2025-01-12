@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-image: url(./images/clock.jpg);
+    background-repeat: no-repeat;
+}
+
+.nav h1 {
+    margin-top: 50px;
+}
+
+
+.container {
+    margin: 10px 20px;
+    min-width: 400px;
+    min-height: 230px;
+    margin-top: 30vh;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(31, 29, 29);
+    border: none;
+    border-radius: 10px;
+    max-width: 600px;
+    border: 2px solid rgb(6, 66, 48);
+    background-color: rgb(88, 156, 136);
+    display: flex;
+  }
+
+.container p {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.time {
+    width:35px;
+    height: 30px;
+    padding: 5px 5px;
+    margin: 1rem;
+    border-radius: 3px;
+    border: green;
+  }
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    margin-bottom: 20px;
+    width:60px;
+    height: 40px;
+    /* padding: 10px 5px; */
+    border-radius: 3px;
+    border: green;
+    cursor: pointer;
+}
+
+.btn2 {
+    margin-bottom: 20px;
+    width:60px;
+    height: 40px;
+    /* padding: 10px 5px; */
+    border-radius: 3px;
+    border: green;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    border: 2px solid black;
+}
+
+.btn2:hover {
+    border: 2px solid black;
+}
+
+.info {
+    min-width: 300px;
+    min-height: 70px;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+
